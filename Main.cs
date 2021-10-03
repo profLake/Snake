@@ -7,6 +7,9 @@ partial class Snake
         Console.CursorVisible = false;
 
         MapGen();
+        Eat();
+        OutputMap();
+
         Console.ReadKey();
     }
 }

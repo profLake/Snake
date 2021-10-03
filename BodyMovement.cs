@@ -19,6 +19,7 @@ partial class Snake
                 trend = trend == 'a' ? 'a' : 'd';
                 break;
         }
+<<<<<<< HEAD:BodyMovement.cs
 
         for (uint i = 1; i < bodyLength; i++)
 		{
@@ -40,5 +41,8 @@ partial class Snake
 				body[0].x++;
 				break;
 		}
+=======
+        
+>>>>>>> 6aaa19aec149cf574567cd79557ef202857f8549:HeadMovement.cs
     }
 }
