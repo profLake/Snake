@@ -6,7 +6,9 @@ namespace Snake
 {
     class Game
     {
-        static uint[,] map = new uint[30, 50];
+        static int width = 100;
+        static int height = 25;
+        static char[,] map = new char[width,height];
         static uint headY = (uint)(map.GetLength(0) / 2),
                     headX = (uint)(map.GetLength(1) / 2);
         static char trend = 'a';
@@ -34,36 +36,53 @@ namespace Snake
             Console.CursorVisible = false;
 
             MapGen();
-            Console.ReadKey();
+            Eat();
+            Vivod();
+            //Console.ReadKey();
+        }
+
+        static void Vivod()
+        {
+            //вывод на экран
+            for (int h = 0; h < height; h++)
+            {
+                for (int w = 0; w < width; w++)
+                {
+                    if (w == (width - 1)) Console.WriteLine(map[w, h]);
+                    else Console.Write(map[w, h]);
+                }
+            }
         }
 
         static void MapGen()
         {
-            int width = 100;
-            int height = 25;
-            string[,] mass = new string[width,height];
-
-
             for (int h = 0; h < height; h++)
             {
                 for (int w = 0; w < width; w++)
                 {
-                    if (h == 0 || h == (height - 1) || w == 0 || w == (width - 1) ) mass[w, h] = "#";
-                    else mass[w, h] = " ";
+                    if (h == 0 || h == (height - 1) || w == 0 || w == (width - 1) ) map[w, h] = '#';
+                    else map[w, h] = ' ';
 
                 }
-            }
-            for (int h = 0; h < height; h++)
-            {
-                for (int w = 0; w < width; w++)
-                {
-                    if(w== (width - 1)) Console.WriteLine(mass[w, h]);
-                    else Console.Write(mass[w, h]);
-                }
-            }
-
-
-            
+            }  
         }
+        
+        static void Eat()
+        {
+            bool ck = true;
+            while (ck)
+            {
+                Random wR = new Random();
+                Random hR = new Random();
+                int tempW = wR.Next(1, width);
+                int tempH = hR.Next(1, height);
+                if (map[tempW, tempH] == ' ')
+                {
+                    map[tempW, tempH] = '@';
+                    ck = false;
+                }
+            }
+        }
+
     }
 }
