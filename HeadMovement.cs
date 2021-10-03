@@ -19,6 +19,6 @@ partial class Snake
                 trend = trend == 'a' ? 'a' : 'd';
                 break;
         }
-        for (int )
+        
     }
 }
