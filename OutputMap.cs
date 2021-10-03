@@ -1,3 +1,5 @@
+using System;
+
 public partial class Snake
 { 
    static void OutputMap()

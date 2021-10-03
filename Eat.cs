@@ -1,3 +1,5 @@
+using System;
+
 partial class Snake{
 static void Eat()
     {

@@ -11,7 +11,9 @@ partial class Snake
             x = _x;
         }
     }
-    static char[,] map = new char[30, 50];
+    static int width = 100;
+    static int height = 25;
+    static char[,] map = new char[width,height];
     static char trend = 'a';
     static BodyCell[] body = new BodyCell[100];
 }
