@@ -2,7 +2,7 @@ using System;
 
 partial class Snake
 {
-    static void HeadMovement()
+    static void BodyMovement()
     {
         switch (Console.Read())
         {
@@ -19,6 +19,30 @@ partial class Snake
                 trend = trend == 'a' ? 'a' : 'd';
                 break;
         }
+<<<<<<< HEAD:BodyMovement.cs
+
+        for (uint i = 1; i < bodyLength; i++)
+		{
+			body[i].y = body[i - 1].y;
+			body[i].x = body[i - 1].x;
+		}
+		switch (trend)
+		{
+			case 'w':
+				body[0].y--;
+				break;
+			case 'a':
+				body[0].x--;
+				break;
+			case 's':
+				body[0].y++;
+				break;
+			case 'd':
+				body[0].x++;
+				break;
+		}
+=======
         
+>>>>>>> 6aaa19aec149cf574567cd79557ef202857f8549:HeadMovement.cs
     }
 }

@@ -12,7 +12,7 @@ static void Eat()
             int tempH = hR.Next(1, height);
             if (map[tempW, tempH] == ' ')
             {
-                map[tempW, tempH] = '@';
+                map[tempW, tempH] = appleSymb;
                 ck = false;
             }
         }
