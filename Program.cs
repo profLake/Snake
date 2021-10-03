@@ -6,8 +6,9 @@ namespace Snake
 {
     class Game
     {
-        
-
+        static uint[,] map = new uint[30, 50];
+        static uint headY = (uint)(map.GetLength(0) / 2),
+                    headX = (uint)(map.GetLength(1) / 2);
         static void Main()
         {
             Console.CursorVisible = false;
