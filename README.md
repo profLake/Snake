@@ -1,3 +1,0 @@
-# Snake
-
-Edit File

@@ -1,6 +1,0 @@
-D:\Code\Git\Snake\obj\Debug\net5.0\Snake.GlobalUsings.g.cs
-D:\Code\Git\Snake\obj\Debug\net5.0\Snake.csproj.AssemblyReference.cache
-D:\Code\Git\Snake\obj\Debug\net5.0\Snake.GeneratedMSBuildEditorConfig.editorconfig
-D:\Code\Git\Snake\obj\Debug\net5.0\Snake.AssemblyInfoInputs.cache
-D:\Code\Git\Snake\obj\Debug\net5.0\Snake.AssemblyInfo.cs
-D:\Code\Git\Snake\obj\Debug\net5.0\Snake.csproj.CoreCompileInputs.cache
