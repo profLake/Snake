@@ -1,24 +1,29 @@
 ﻿using System;
 
 
+
 namespace Snake
 {
     class Game
     {
-        public void MapGen()
+        static void MapGen()
         {
             int width = 50;
             int height = 30;
+            int[,] mass = new int[width, height];
+            int q = 0;
 
-            for(int h = 0; h < width; h++)
+            for (int h = 0; h < width; h++)
             {
-                for(int w = 0; w < height; w++)
+                for (int w = 0; w < height; w++)
                 {
-                    if (w ==0 ||w == 49) Console.Write("#");
-                    else if (h == 29) Console.Write("#\n");
-                    else if (w == 0 || h == 0) Console.Write("#");
-                    else Console.Write(" ");
-
+                    mass[h, w] = q;
+                    if (q % 50 == 0)
+                    {
+                        Console.WriteLine(q);
+                    }
+                    else Console.Write(q + " ");
+                    q++;
                 }
             }
 
@@ -29,8 +34,7 @@ namespace Snake
         {
             Console.CursorVisible = false;
 
-            Game game = new Game();
-            game.MapGen();
+            MapGen();
 
         }
     }

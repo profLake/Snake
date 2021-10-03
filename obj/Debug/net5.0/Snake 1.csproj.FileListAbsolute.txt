@@ -1,0 +1,15 @@
+D:\Code\Git\Snake 1\bin\Debug\net5.0\Snake 1.exe
+D:\Code\Git\Snake 1\bin\Debug\net5.0\Snake 1.deps.json
+D:\Code\Git\Snake 1\bin\Debug\net5.0\Snake 1.runtimeconfig.json
+D:\Code\Git\Snake 1\bin\Debug\net5.0\Snake 1.runtimeconfig.dev.json
+D:\Code\Git\Snake 1\bin\Debug\net5.0\Snake 1.dll
+D:\Code\Git\Snake 1\bin\Debug\net5.0\ref\Snake 1.dll
+D:\Code\Git\Snake 1\bin\Debug\net5.0\Snake 1.pdb
+D:\Code\Git\Snake 1\obj\Debug\net5.0\Snake 1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\Git\Snake 1\obj\Debug\net5.0\Snake 1.AssemblyInfoInputs.cache
+D:\Code\Git\Snake 1\obj\Debug\net5.0\Snake 1.AssemblyInfo.cs
+D:\Code\Git\Snake 1\obj\Debug\net5.0\Snake 1.csproj.CoreCompileInputs.cache
+D:\Code\Git\Snake 1\obj\Debug\net5.0\Snake 1.dll
+D:\Code\Git\Snake 1\obj\Debug\net5.0\ref\Snake 1.dll
+D:\Code\Git\Snake 1\obj\Debug\net5.0\Snake 1.pdb
+D:\Code\Git\Snake 1\obj\Debug\net5.0\Snake 1.genruntimeconfig.cache
