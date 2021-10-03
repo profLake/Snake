@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\Git\\Snake 1\\Snake 1.csproj",
-      "projectName": "Snake 1",
-      "projectPath": "D:\\Code\\Git\\Snake 1\\Snake 1.csproj",
+      "projectUniqueName": "D:\\Code\\Git\\Snake\\Snake.csproj",
+      "projectName": "Snake",
+      "projectPath": "D:\\Code\\Git\\Snake\\Snake.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\Git\\Snake 1\\obj\\",
+      "outputPath": "D:\\Code\\Git\\Snake\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

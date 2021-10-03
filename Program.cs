@@ -6,36 +6,43 @@ namespace Snake
 {
     class Game
     {
-        static void MapGen()
-        {
-            int width = 50;
-            int height = 30;
-            int[,] mass = new int[width, height];
-            int q = 0;
-
-            for (int h = 0; h < width; h++)
-            {
-                for (int w = 0; w < height; w++)
-                {
-                    mass[h, w] = q;
-                    if (q % 50 == 0)
-                    {
-                        Console.WriteLine(q);
-                    }
-                    else Console.Write(q + " ");
-                    q++;
-                }
-            }
-
-        }
-
+        
 
         static void Main()
         {
             Console.CursorVisible = false;
 
             MapGen();
+            Console.ReadKey();
+        }
 
+        static void MapGen()
+        {
+            int width = 100;
+            int height = 25;
+            string[,] mass = new string[width,height];
+
+
+            for (int h = 0; h < height; h++)
+            {
+                for (int w = 0; w < width; w++)
+                {
+                    if (h == 0 || h == (height - 1) || w == 0 || w == (width - 1) ) mass[w, h] = "#";
+                    else mass[w, h] = " ";
+
+                }
+            }
+            for (int h = 0; h < height; h++)
+            {
+                for (int w = 0; w < width; w++)
+                {
+                    if(w== (width - 1)) Console.WriteLine(mass[w, h]);
+                    else Console.Write(mass[w, h]);
+                }
+            }
+
+
+            
         }
     }
 }

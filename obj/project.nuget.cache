@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Bbq4L2X06F0Wiz3+kM17kIlcKzX2yiM8HztIAv2JRUz2VIDe0nhYEb7QkDLMoLOLFK8JBkjbMtXdJ6N80Gy+rQ==",
+  "dgSpecHash": "UikUjkAj2PihHZgDNnG+7VV5AxnQEsDQPTCzjfgWqK7QZxZ7suaRuZbAFLZqGEapM9dUreXddWCBsbyX3EQKGA==",
   "success": true,
-  "projectFilePath": "D:\\Code\\Git\\Snake 1\\Snake 1.csproj",
+  "projectFilePath": "D:\\Code\\Git\\Snake\\Snake.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.9\\microsoft.netcore.app.host.win-x64.5.0.9.nupkg.sha512"
   ],
