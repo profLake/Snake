@@ -16,4 +16,8 @@ partial class Snake
     static char[,] map = new char[width,height];
     static char trend = 'a';
     static BodyCell[] body = new BodyCell[100];
+    static uint bodyLength = 4;
+    static char appleSymb = '$';
+    static char borderSymb = '#';
+    static bool isAlive = true;
 }
