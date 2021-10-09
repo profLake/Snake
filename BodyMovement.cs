@@ -4,7 +4,8 @@ partial class Snake
 {
     static void BodyMovement()
     {
-        switch (Console.Read())
+        char ch = Console.ReadKey(true).KeyChar;
+        switch (ch)
         {
             case 'w':
                 trend = trend == 's' ? 's' : 'w';

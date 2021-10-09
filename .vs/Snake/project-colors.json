@@ -20,7 +20,17 @@
       "ProjectGuid": "7741c7e9-1d65-4705-a96a-76dd3bbd34c7",
       "DisplayName": "Snake",
       "ColorIndex": 2
+    },
+    "70d98b1b-2f61-44cd-b390-b92266eb9a75": {
+      "ProjectGuid": "70d98b1b-2f61-44cd-b390-b92266eb9a75",
+      "DisplayName": "Snake",
+      "ColorIndex": 3
+    },
+    "4e01832e-5b74-4cd9-a57c-783171f1238e": {
+      "ProjectGuid": "4e01832e-5b74-4cd9-a57c-783171f1238e",
+      "DisplayName": "Snake",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 5
 }
