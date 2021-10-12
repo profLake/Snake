@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UikUjkAj2PihHZgDNnG+7VV5AxnQEsDQPTCzjfgWqK7QZxZ7suaRuZbAFLZqGEapM9dUreXddWCBsbyX3EQKGA==",
+  "dgSpecHash": "659XnV3JvQbVYFsqbhj1d7laOosnQ/nkty5Rilhxn6euFiQ/5IR4PjvHQUxBAakJWsWWuvLvuQ5DGWLvc9szGQ==",
   "success": true,
-  "projectFilePath": "D:\\Code\\Git\\Snake\\Snake.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.9\\microsoft.netcore.app.host.win-x64.5.0.9.nupkg.sha512"
-  ],
+  "projectFilePath": "/home/art/dev/CollaborateSnake-2021_10_03/Snake.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

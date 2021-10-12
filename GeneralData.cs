@@ -11,12 +11,14 @@ partial class Snake
             x = _x;
         }
     }
-    static int width = 100;
-    static int height = 25;
-    static char[,] map = new char[width,height];
+    static int width = 25;
+    static int height = 12;
+    static char[,] map = new char[height ,width];
     static char trend = 'a';
     static BodyCell[] body = new BodyCell[100];
     static uint bodyLength = 4;
+    static char bodySymb = '#';
+    static BodyCell apple;
     static char appleSymb = '$';
     static char borderSymb = '#';
     static bool isAlive = true;

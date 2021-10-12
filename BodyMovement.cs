@@ -8,21 +8,20 @@ partial class Snake
         switch (ch)
         {
             case 'w':
-                trend = trend == 's' ? 's' : 'w';
+                trend = trend != 's' ? 'w' : 's';
                 break;
             case 'a':
-                trend = trend == 'd' ? 'd' : 'a';
+                trend = trend != 'd' ? 'a' : 'd';
                 break;
             case 's':
-                trend = trend == 'w' ? 'w' : 'a';
+                trend = trend != 'w' ? 's' : 'w';
                 break;
             case 'd':
-                trend = trend == 'a' ? 'a' : 'd';
+                trend = trend != 'a' ? 'd' : 'a';
                 break;
         }
-<<<<<<< HEAD:BodyMovement.cs
 
-        for (uint i = 1; i < bodyLength; i++)
+        for (uint i = bodyLength - 1; i > 0; i--)
 		{
 			body[i].y = body[i - 1].y;
 			body[i].x = body[i - 1].x;
@@ -42,8 +41,5 @@ partial class Snake
 				body[0].x++;
 				break;
 		}
-=======
-        
->>>>>>> 6aaa19aec149cf574567cd79557ef202857f8549:HeadMovement.cs
     }
 }

@@ -8,11 +8,12 @@ static void Eat()
         {
             Random wR = new Random();
             Random hR = new Random();
-            int tempW = wR.Next(1, width);
-            int tempH = hR.Next(1, height);
-            if (map[tempW, tempH] == ' ')
+            uint tempW = (uint)wR.Next(1, width);
+            uint tempH = (uint)hR.Next(1, height);
+            if (map[tempH, tempW] == ' ')
             {
-                map[tempW, tempH] = appleSymb;
+                apple.y = tempH;
+                apple.x = tempW;
                 ck = false;
             }
         }

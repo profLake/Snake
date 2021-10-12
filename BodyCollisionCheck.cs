@@ -10,6 +10,7 @@ partial class Snake
         }
         if (map[body[0].y, body[0].x] == appleSymb) 
         {
+            Eat();
             bodyLength++;
             return;
         }

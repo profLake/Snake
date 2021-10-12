@@ -9,9 +9,9 @@ public partial class Snake
         {
             for (int w = 0; w < width; w++)
             {
-                if (w == (width - 1)) Console.WriteLine(map[w, h]);
-                else Console.Write(map[w, h]);
+                Console.Write(map[h, w]);
             }
+            Console.WriteLine();
         }
     }
 }
