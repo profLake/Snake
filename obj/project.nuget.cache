@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "659XnV3JvQbVYFsqbhj1d7laOosnQ/nkty5Rilhxn6euFiQ/5IR4PjvHQUxBAakJWsWWuvLvuQ5DGWLvc9szGQ==",
+  "dgSpecHash": "iM1bsj3HNSJpczrTWQLhyKie3IQyYPxWahY8DYQGbq/aO5PJTYLxTc3bXh2Y9VMvs4ALLZz0IS9DcaAeTyz9hA==",
   "success": true,
   "projectFilePath": "/home/art/dev/CollaborateSnake-2021_10_03/Snake.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /home/art/dev/CollaborateSnake-2021_10_03/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

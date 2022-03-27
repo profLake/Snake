@@ -2,14 +2,14 @@ using System;
 
 public partial class Snake
 { 
-   static void OutputMap()
+   static void PrintField()
     {
         //вывод на экран
-        for (int h = 0; h < height; h++)
+        for (int h = 0; h < fieldHeight; h++)
         {
-            for (int w = 0; w < width; w++)
+            for (int w = 0; w < fieldWidth; w++)
             {
-                Console.Write(map[h, w]);
+                Console.Write(field[h, w]);
             }
             Console.WriteLine();
         }

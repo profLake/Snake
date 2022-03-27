@@ -4,22 +4,25 @@ partial class Snake
 {
     struct BodyCell
     {
-        public uint y, x;
-        public BodyCell(uint _y, uint _x)
+        public int x, y;
+        public BodyCell(int _x, int _y)
         {
-            y = _y;
             x = _x;
+            y = _y;
         }
     }
-    static int width = 25;
-    static int height = 12;
-    static char[,] map = new char[height ,width];
-    static char trend = 'a';
-    static BodyCell[] body = new BodyCell[100];
-    static uint bodyLength = 4;
+    static int fieldWidth = 25;
+    static int fieldHeight = 12;
+    static char[,] field = new char[fieldHeight ,fieldWidth];
+    static char fieldBorderSymb = '#';
+
+    static char headTrend = 'a';
+    static bool isAlive = true;
+    static BodyCell[] body = new BodyCell[fieldHeight * fieldWidth];
+    static int bodyLength = 4;
     static char bodySymb = '#';
+
     static BodyCell apple;
     static char appleSymb = '$';
-    static char borderSymb = '#';
-    static bool isAlive = true;
+    static int fps = 5;
 }

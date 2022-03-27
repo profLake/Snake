@@ -2,16 +2,16 @@ using System;
 
 partial class Snake
 {
-    static void BodyCollisionCheck()
+    static void HandleCollision()
     {
-        if (map[body[0].y, body[0].x] == ' ')
+        if (field[body[0].y, body[0].x] == ' ')
         {
             return;
         }
-        if (map[body[0].y, body[0].x] == appleSymb) 
+        if (field[body[0].y, body[0].x] == appleSymb) 
         {
-            Eat();
             bodyLength++;
+            FillApple();
             return;
         }
 

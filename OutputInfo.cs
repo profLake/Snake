@@ -2,9 +2,9 @@ using System;
 
 partial class Snake
 {
-    static void OutputInfo()
+    static void PrintInfo()
     {
-        Console.WriteLine($"trend: {trend}");
+        Console.WriteLine($"headTrend: {headTrend}");
         Console.WriteLine($"bodyLength: {bodyLength}");
     }
 }

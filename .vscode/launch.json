@@ -10,8 +10,13 @@
             "request": "launch",
             "WARNING01": "*********************************************************************************",
             "WARNING02": "The C# extension was unable to automatically decode projects in the current",
+<<<<<<< HEAD
             "WARNING03": "workspace to create a runnable launch.json file. A template launch.json file has",
             "WARNING04": "been created as a placeholder.",
+=======
+            "WARNING03": "workspace to crFillApplee a runnable launch.json file. A template launch.json file has",
+            "WARNING04": "been crFillAppleed as a placeholder.",
+>>>>>>> fe33f20 (The old project is fairly completed, but I'm alone)
             "WARNING05": "",
             "WARNING06": "If OmniSharp is currently unable to load your project, you can attempt to resolve",
             "WARNING07": "this by restoring any missing project dependencies (example: run 'dotnet restore')",

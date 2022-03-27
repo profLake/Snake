@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "ProjectMap": {
+=======
+  "Projectfield": {
+>>>>>>> fe33f20 (The old project is fairly completed, but I'm alone)
     "9a86e5d2-d9fc-483e-aa4b-43b0d93ce718": {
       "ProjectGuid": "9a86e5d2-d9fc-483e-aa4b-43b0d93ce718",
       "DisplayName": "Snake 1",
